@@ -24,7 +24,7 @@ public class HelloApplication extends Application {
                 fxmlLoader.<HelloController>getController();
         controller.Init(Data);
         Scene scene = new Scene(root);
-        stage.setTitle("Hello!");
+        stage.setTitle("Grading System");
         stage.setScene(scene);
         stage.show();
     }
